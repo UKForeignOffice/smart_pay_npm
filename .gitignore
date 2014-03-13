@@ -1,1 +1,18 @@
+<<<<<<< HEAD
+=======
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+>>>>>>> 44c29b4... Initial commit
 node_modules
