@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 lib-cov
 *.seed
 *.log
@@ -14,5 +12,4 @@ logs
 results
 
 npm-debug.log
->>>>>>> 44c29b4... Initial commit
 node_modules
