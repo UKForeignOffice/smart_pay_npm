@@ -8,12 +8,12 @@ describe("SmartPay.Response", function () {
     SmartPay.testMode = true;
     sharedKey = "Kah942*$7sdp0)";
     parameters = {
-      merchant_reference : "Internet Order 12345",
-      skin_code : "4aD37dJA",
-      shopper_locale : "en_GB",
-      auth_result : "AUTHORISED",
-      psp_reference : "1211992213193029",
-      merchant_sig : "ytt3QxWoEhAskUzUne0P5VA9lPw="
+      authResult : "AUTHORISED",
+	  pspReference : "1211992213193029",
+	  merchantReference : "Internet Order 12345",
+      skinCode : "4aD37dJA",
+	  merchantReturnData : "AbCdEFGhIJklmnopQRstUVWxyZ",
+      merchantSig : "97Bn5omZKz9MKunOnroMXa9OxVE="
     };
   });
   it("should verify the response parameters", function () {
